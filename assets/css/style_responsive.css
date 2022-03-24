@@ -1,0 +1,75 @@
+/*of related thumb*/
+@media only screen and (max-width: 900px)  and (min-width:500px){
+    .related-thumb img{
+        width: 100%;
+        height: 300px;
+        position: relative;
+    }
+    .related-thumb {
+        position: relative;
+    }
+    .related-thumb .thumb-content{
+    background-color: rgb(0, 0, 0,.7);
+    position:absolute;
+    top:0px;
+    left: 0px;
+    width: 100%;
+    height:100%;
+    color: var(--main-Gcolor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+.thumb-content h2{
+color: white;
+font-size: 20px;
+}
+  
+.related-thumb .thumb-content:hover{
+        opacity: .9;
+        transition: opacity 500ms;
+}
+   
+
+.related-thumb .thumb-img .thumb-content h2{
+            color: white;
+            font-size: 25px;
+        }
+        .related-thumb .thumb-content .created-date{
+            font-size: 15px;
+            text-shadow: black 1px 1px;
+            color: white;
+        }
+}
+/*of breadcrumb and content-list*/
+
+@media only screen and (max-width: 900px)  and (min-width:500px){
+.breadcrumb{
+    width:80% ;
+    margin: 20px auto 50px;
+}
+.breadcrumb-item {
+    margin: auto;
+}
+.content-list{
+    margin-top: 20px;
+}
+}
+
+/* of recents post*/
+@media only screen and (max-width: 992px)  and (min-width:500px){
+.recents-posts h2, .recents-posts .created-date, .recents-posts h3{
+    text-align: center !important;
+  }
+  .recents-posts span{
+      font-size: 14px;
+  }
+  .recents-post .col-md-6{
+      min-width: 100%;
+      margin-bottom: 15px;
+  }
+  .recents-post .recent-overlay {
+      font-size: 30px;
+  }
+}
